@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #1E5515;
+
+}
+#logo{
+    height: 50px;
+}
+.anchor{
+    text-decoration: none;
+    color: #E4E3E9;
+    padding: 20px;
+}
+.anchor:hover{
+    color: #2A3033 ;
+}
+button{
+    margin-left: 50px;
+}
+.icons{
+    height: 40px;
+}
+footer{
+    background-color: #2A3033;
+    padding: 15px;
+}
+main{
+    height: 500px;
+}
+.anchorFooter{
+    text-decoration: none;
+    color: #E4E3E9;
+    padding: 20px;
+}
