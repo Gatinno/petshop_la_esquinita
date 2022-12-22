@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jugueteria- La esquinita</title>
+  <link rel="shortcut icon" href="../assets/img/la_esquinita_logo.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="../assets/styles/styles.css">
 </head>
@@ -36,28 +37,12 @@
       <h1>Jugueteria</h1>
       <div class="contenedor-search">
         <form class="search-form" action="/search.php">
-          <input class="search-input" type="text" name="query" placeholder="Buscar Producto">
+          <input id="inputSearch" class="search-input" type="text" name="query" placeholder="Buscar Producto">
         </form>
       </div>
     </div>
-    <div id="contenedor2" class="div-card">
-      <div class="conteinerCards">
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-              <a class="a-card"  href="./details.html"> 
-                <img src="../assets/img/perrito-joven-posando-alegre.jpg" class="card-img-top" alt="perrito">
-              </a>
-            <div class="card-body">
-              <h5 class="card-title">Nombre del Producto</h5>
-              <div class="text-button">
-                <p class="text-button">Price:</p>
-                <button class="btn btn-primary">Agregar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> 
+    <div id="conteinerCards" class="conteinerCards col">
+    </div>
   </main>
   <footer class="d-flex justify-content-between align-items-center">
     <div class="">
