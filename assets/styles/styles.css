@@ -67,7 +67,7 @@ main{
     color: #E4E3E9 !important;
     background-color: #215818 !important;
 
-
+}
 #perro{
     height: 400px;
     width: 100%;
@@ -78,14 +78,11 @@ main{
 }
 footer>div{
     width: 240px;
+}
 .imagen-details{
     width: 300px;
     object-fit: cover;
 }
-/*.container-details{
-    height: 470px;
-    padding: 50px;
-}*/
 .contenedor-text{
     width: 100%;
     max-width: 600px;
