@@ -3,36 +3,47 @@
     margin: 0px;
     box-sizing: border-box;
 }
-.navbar{
-    background-color: #1E5515;
-
+main{
+    background-color: #D9A256;
 }
-#logo{
-    height: 50px;
-}
-.anchor{
-    text-decoration: none;
-    color: #E4E3E9;
-    padding: 20px;
-}
-.anchor:hover{
-    color: #2A3033 ;
-}
-button{
-    margin-left: 50px;
-}
-.icons{
-    height: 40px;
+header{
+    padding: 15px;
 }
 footer{
     background-color: #2A3033;
     padding: 15px;
+
 }
-main{
-    height: 500px;
+.parrafo{
+    width: 75%;
+}
+.navbar{
+    background-color: #1E5515;
+}
+.anchor{
+    text-decoration: none;
+    color: #E4E3E9;
+    padding: 10px;
+}
+.anchor:hover{
+    color: #2A3033 ;
+}
+.icons{
+    height: 40px;
 }
 .anchorFooter{
     text-decoration: none;
     color: #E4E3E9;
     padding: 20px;
+}
+#perro{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+#logo{
+    height: 50px;
+}
+footer>div{
+    width: 240px;
 }
