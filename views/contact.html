@@ -14,7 +14,7 @@
 
 <body>
   <nav class="navbar navbar-expand-md p-2">
-    <div class=" container-fluid w-30 d-flex justify-content-start">
+    <div class=" container-fluid w-30">
       <a class=" anchor" href="../index.html">
         <img class="mb-2" id="logo" src="../assets/img/la_esquinita_logo.png" alt="logo la-esquinita">
         La Esquinita
@@ -24,8 +24,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
-    <div class="collapse navbar-collapse w-50 " id="menu">
-      <ul class="navbar-nav me-auto">
+    <div class="collapse navbar-collapse w-75 " id="menu">
+      <ul class="navbar-nav w-100  d-flex justify-content-evenly">
         <li class="nav-item "><a class=" anchor" href="../index.html">inicio</a></li>
         <li class="nav-item "><a class=" anchor" href="../views/contact.html">Contacto</a></li>
         <li class="nav-item "><a class=" anchor" href="../views/pharmacy.html">Farmacia</a></li>
@@ -33,22 +33,22 @@
       </ul>
     </div>
   </nav>
-  <main class="px-sm-4 px-lg-5 py-4">
+  <main class="px-sm-4 px-lg-5 py-4 d-flex flex-column align-items-center">
     <h1 class="text-center py-4">Contactanos</h1>
-    <form class="border border-1 row justify-content-center rounded py-3 px-2">
-      <div class="form-floating col-md-6 mb-4 px-2">
+    <form class="border border-1 row w-100 justify-content-center rounded py-3 px-md-2">
+      <div class="form-floating col-md-6 mb-4 px-sm-2">
         <input type="text" class="form-control" id="nombre" placeholder="Inserte su nombre aqui">
         <label for="nombre">Inserte su nombre aqui</label>
       </div>
-      <div class="form-floating col-md-6 mb-4 px-2">
+      <div class="form-floating col-md-6 mb-4 px-sm-2">
         <input type="text" class="form-control" id="apellido" placeholder="Inserte su apellido aqui">
         <label for="apellido">Inserte su apellido aqui</label>
       </div>
-      <div class="form-floating col-md-6 mb-4 px-2">
+      <div class="form-floating col-md-6 mb-4 px-sm-2">
         <input type="text" class="form-control" id="telefono" placeholder="Inserte su telefono aqui">
         <label for="telefono">Inserte su telefono aqui</label>
       </div>
-      <div class="form-floating col-md-6 mb-4 px-2">
+      <div class="form-floating col-md-6 mb-4 px-sm-2">
         <input type="email" class="form-control" id="email" placeholder="Inserte su email aqui">
         <label for="email">Inserte su email aqui</label>
       </div>
@@ -60,7 +60,7 @@
         <option value="tortuga">Tortuga</option>
         <option value="conejo">Conejo</option>
       </select>
-      <div class="form-floating px-2 mb-4">
+      <div class="form-floating px-sm-2 mb-4">
         <textarea class="form-control" placeholder="Dejanos tu comentario" id="comentario"></textarea>
         <label for="comentario">Dejanos tu comentario</label>
       </div>
