@@ -28,11 +28,32 @@ footer{
     background-color: #2A3033;
     padding: 15px;
 }
-main{
-    height: 500px;
-}
 .anchorFooter{
     text-decoration: none;
     color: #E4E3E9;
     padding: 20px;
+}
+main {
+    background-color: #D9A256;
+}
+.border {
+    border-color: #2A3033 !important;
+}
+#comentario {
+    resize: none;
+    height: 200px;
+}
+.btn {
+    color: #E4E3E9;
+    background-color: #1E5515;
+    transition: background ease .4s;
+}
+.btn:hover {
+    color: #E4E3E9;
+    background-color: #184F0F;
+}
+.btn:active {
+    border-color: #215818 !important;
+    color: #E4E3E9 !important;
+    background-color: #215818 !important;
 }
