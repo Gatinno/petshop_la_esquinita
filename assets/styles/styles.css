@@ -78,12 +78,10 @@ input[type="text"]::placeholder {
   }
 
 input[type="text"] {
+    padding-left: 0.5rem;
     font-size: 1.5em;
   }
 
-.div-card{
-    margin: 1rem;
-}
 
 .col{
     display: flex !important;
@@ -93,32 +91,31 @@ input[type="text"] {
     margin: 2rem 0rem !important;
     padding: 0 !important;
     justify-content: center !important;
+    align-items: center !important;
 }
 
 .card:not(:hover){
     border-radius: 1.5rem;
+    margin: 1rem 0rem;
     border: 1px solid #2A3033;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
     height: 24rem;
     background-color: #BF8A41;
-    align-content: space-between;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
 }
 
 .card:hover {
     border-radius: 1.5rem;
     border: 1px solid #2A3033;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
     height: 24rem;
     background-color: #BF8A41;
     align-content: space-between;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
+
+.marginCard{
+    margin: 1rem !important;
+}
 
 .a-card{
     text-decoration: none;
