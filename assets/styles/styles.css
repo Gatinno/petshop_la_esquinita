@@ -13,7 +13,6 @@
 .anchor{
     text-decoration: none;
     color: #E4E3E9;
-    padding: 20px;
 }
 .anchor:hover{
     color: #2A3033 ;
@@ -29,10 +28,34 @@ footer{
     padding: 15px;
 }
 main{
-    height: 500px;
+    min-height: 82vh;
+    background-color: #D9A256;
 }
 .anchorFooter{
     text-decoration: none;
     color: #E4E3E9;
     padding: 20px;
+}
+.imagen-details{
+    width: 300px;
+    object-fit: cover;
+}
+/*.container-details{
+    height: 470px;
+    padding: 50px;
+}*/
+.contenedor-text{
+    width: 100%;
+    max-width: 600px;
+}
+ .contenerdor-button{
+    display: flex;
+    justify-content: center;
+ }
+.button-details{
+    margin-right: 20px;
+    background-color: #1E5515;
+    border: 4px solid #1E5515 ;
+    border-radius: 40px;
+    color: #E4E3E9;
 }
