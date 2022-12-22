@@ -29,10 +29,149 @@ footer{
     padding: 15px;
 }
 main{
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 83.8vh;
+    background-color: #D9A256;
 }
+
 .anchorFooter{
     text-decoration: none;
     color: #E4E3E9;
     padding: 20px;
+}
+
+/* Pagina Farmacia */
+
+#contenedor1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+
+h1{
+    font-weight: bolder;
+    margin: 2rem 0rem;
+}
+
+.search-input{
+    border-radius: 0.5rem;
+    width: 40rem;
+    height: 2.5rem;
+}
+
+input[type="text"]::placeholder {
+    text-align: center;
+    font-size: 25px;
+  }
+
+input[type="text"] {
+    font-size: 1.5em;
+  }
+
+.div-card{
+    margin: 1rem;
+}
+
+.col{
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    margin: 2rem 0rem !important;
+    padding: 0 !important;
+    justify-content: center !important;
+}
+
+.card:not(:hover){
+    border-radius: 1.5rem;
+    border: 1px solid #2A3033;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 24rem;
+    background-color: #BF8A41;
+    align-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+}
+
+.card:hover {
+    border-radius: 1.5rem;
+    border: 1px solid #2A3033;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 24rem;
+    background-color: #BF8A41;
+    align-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    transform: scale(1.2);
+  }
+
+.a-card{
+    text-decoration: none;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 12rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    object-fit: cover;
+}
+
+.card-title{
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+}
+
+.text-button{
+    display: flex;
+    color: white;
+    margin: 1rem 0rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-primary{
+    --bs-btn-bg: #1E5515;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-bg: #1E5515;
+    --bs-btn-hover-border-color: none;
+    --bs-btn-active-bg: #2e8623;
+    --bs-btn-active-border-color: none;
+    --bs-btn-disabled-bg: none;
+    --bs-btn-disabled-border-color: none;
+}
+
+@media (min-width: 319px) and (max-width: 426px) {
+    .search-input{
+        border-radius: 0.5rem;
+        width: 18rem;
+        height: 2rem;
+    }
+    
+    input[type="text"]::placeholder {
+        font-size: 16px;
+      }
+    
+    input[type="text"] {
+        padding-left: 0.5rem;
+        font-size: 1rem;
+      }
 }
