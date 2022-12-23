@@ -12,7 +12,7 @@ export  function renderCards(conteiner, array, value){
         divCard.innerHTML +=
         `<div style="width: 18rem;">
             <a class="a-card" href="./details.html?id=${card._id} "> 
-                ${card.disponibles ? '<span class="ultimas-unidades bg-danger text-light p-1">Ultimas unidades!!</span>' : ''}
+                ${card.disponibles < 5 ? '<span class="ultimas-unidades bg-danger text-light p-1">Ultimas unidades!!</span>' : ''}
                 <img class="card-img-top" src="${card.imagen}" alt="...">
             </a>
             <div class="card-body">
