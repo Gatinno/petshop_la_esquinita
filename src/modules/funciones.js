@@ -12,12 +12,13 @@ export  function renderCards(conteiner, array, value){
         divCard.innerHTML +=
         `<div style="width: 18rem;">
             <a class="a-card" href="./details.html?id=${card._id} "> 
+                ${card.disponibles ? '<span class="ultimas-unidades bg-danger text-light p-1">Ultimas unidades!!</span>' : ''}
                 <img class="card-img-top" src="${card.imagen}" alt="...">
             </a>
             <div class="card-body">
                 <h5 class="card-title">${card.producto}</h5>
                 <div class="text-button">
-                    <p class="text-button">Price: ${card.precio}</p>
+                    <p class="text-button">Precio: $${card.precio}</p>
                     <a href="#"  class="btn btn-primary">Agregar</a>
                 </div>
             </div>

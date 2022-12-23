@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const nombre = document.getElementById('nombre')
   const apellido = document.getElementById('apellido')
   const telefono = document.getElementById('telefono')
-  const email = document.getElementById('email')
   const animal = document.getElementById('animal')
   const mensaje = document.getElementById('comentario')
   formulario.addEventListener('submit', (e) => {
@@ -15,7 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
     nombre.value = ''
     apellido.value = ''
     telefono.value = ''
-    email.value = ''
     animal.value = ''
     mensaje.value = ''
   })
