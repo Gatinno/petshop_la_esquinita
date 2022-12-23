@@ -236,5 +236,25 @@ footer>div{
     color: #E4E3E9;
 }
 #img-card{
+
     object-fit: contain;
+}
+#conteneiner-details{
+    display: flex !important;
+    justify-content: center;
+    border: 1px solid #2A3033 ;
+    border-radius: 40px;
+    width: 100% !important;
+    max-width: 875px;
+    background-color: #BF8A41
+}
+
+#contenedor-main-details{
+    display: flex;
+    justify-content: center;
+}
+
+#titulo-h5{
+    color: black !important;
+    margin-bottom: 15px;
 }
