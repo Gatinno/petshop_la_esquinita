@@ -72,7 +72,8 @@ h1{
 
 .search-input{
     border-radius: 0.5rem;
-    width: 40rem;
+    width: 100%;
+    max-width: 900px;
     height: 2.5rem;
 }
 
@@ -123,6 +124,12 @@ input[type="text"] {
 
 .a-card{
     text-decoration: none;
+    position: relative;
+}
+
+.ultimas-unidades {
+    position: absolute;
+    bottom: 50px;
 }
 
 .card-body{
@@ -169,7 +176,6 @@ input[type="text"] {
 @media (min-width: 319px) and (max-width: 426px) {
     .search-input{
         border-radius: 0.5rem;
-        width: 18rem;
         height: 2rem;
     }
     
