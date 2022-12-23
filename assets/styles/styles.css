@@ -3,36 +3,238 @@
     margin: 0px;
     box-sizing: border-box;
 }
-.navbar{
-    background-color: #1E5515;
+.perro{
+    width: 100%;
+}
 
-}
-#logo{
-    height: 50px;
-}
-.anchor{
-    text-decoration: none;
-    color: #E4E3E9;
-    padding: 20px;
-}
-.anchor:hover{
-    color: #2A3033 ;
-}
-button{
-    margin-left: 50px;
-}
-.icons{
-    height: 40px;
+main{
+    background-color: #D9A256;
 }
 footer{
     background-color: #2A3033;
     padding: 15px;
+
 }
+.parrafo{
+    width: 75%;
+}
+.navbar{
+    background-color: #1E5515;
+}
+.anchor{
+    text-decoration: none;
+    color: #E4E3E9;
+}
+.anchor:hover{
+    color: #2A3033 ;
+}
+.icons{
+    height: 40px;
+}
+
+footer{
+    background-color: #2A3033;
+    padding: 15px;
+}
+
 main{
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 82vh;
+
+    background-color: #D9A256;
 }
+
 .anchorFooter{
     text-decoration: none;
     color: #E4E3E9;
     padding: 20px;
+}
+
+/* Pagina Farmacia */
+
+#contenedor1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+
+h1{
+    font-weight: bolder;
+    margin: 2rem 0rem;
+}
+
+.search-input{
+    border-radius: 0.5rem;
+    width: 40rem;
+    height: 2.5rem;
+}
+
+input[type="text"]::placeholder {
+    text-align: center;
+    font-size: 25px;
+  }
+
+input[type="text"] {
+    padding-left: 0.5rem;
+    font-size: 1.5em;
+  }
+
+
+.col{
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    margin: 2rem 0rem !important;
+    padding: 0 !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.card:not(:hover){
+    border-radius: 1.5rem;
+    margin: 1rem 0rem;
+    border: 1px solid #2A3033;
+    height: 24rem;
+    background-color: #BF8A41;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+}
+
+.card:hover {
+    border-radius: 1.5rem;
+    border: 1px solid #2A3033;
+    height: 24rem;
+    background-color: #BF8A41;
+    align-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    transform: scale(1.1);
+  }
+
+.marginCard{
+    margin: 1rem !important;
+}
+
+.a-card{
+    text-decoration: none;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 12rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    object-fit: cover;
+}
+
+.card-title{
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+}
+
+.text-button{
+    display: flex;
+    color: white;
+    margin: 1rem 0rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-primary{
+    --bs-btn-bg: #1E5515;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-bg: #1E5515;
+    --bs-btn-hover-border-color: none;
+    --bs-btn-active-bg: #2e8623;
+    --bs-btn-active-border-color: none;
+    --bs-btn-disabled-bg: none;
+    --bs-btn-disabled-border-color: none;
+}
+
+@media (min-width: 319px) and (max-width: 426px) {
+    .search-input{
+        border-radius: 0.5rem;
+        width: 18rem;
+        height: 2rem;
+    }
+    
+    input[type="text"]::placeholder {
+        font-size: 16px;
+      }
+    
+    input[type="text"] {
+        padding-left: 0.5rem;
+        font-size: 1rem;
+      }
+}
+
+.border {
+    border-color: #2A3033 !important;
+}
+#comentario {
+    resize: none;
+    height: 200px;
+}
+.btn {
+    color: #E4E3E9;
+    background-color: #1E5515;
+    transition: background ease .4s;
+}
+.btn:hover {
+    color: #E4E3E9;
+    background-color: #184F0F;
+}
+.btn:active {
+    border-color: #215818 !important;
+    color: #E4E3E9 !important;
+    background-color: #215818 !important;
+
+}
+#perro{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+#logo{
+    height: 50px;
+}
+footer>div{
+    width: 240px;
+}
+.imagen-details{
+    width: 300px;
+    object-fit: cover;
+}
+.contenedor-text{
+    width: 100%;
+    max-width: 600px;
+}
+ .contenerdor-button{
+    display: flex;
+    justify-content: center;
+ }
+.button-details{
+    margin-right: 20px;
+    background-color: #1E5515;
+    border: 4px solid #1E5515 ;
+    border-radius: 40px;
+    color: #E4E3E9;
+}
+#img-card{
+    object-fit: contain;
 }
