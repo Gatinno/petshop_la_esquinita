@@ -20,7 +20,7 @@ export function renderCards(conteiner, array, value) {
 										  ? ''
 										  : '<span class="ultimas-unidades bg-danger text-light p-1">Sin stock!!</span>'
 								}
-                <img class="card-img-top" src="${card.imagen}" alt="...">
+                <img class="card-img-top" src="${card.imagen}" alt="${card.producto}">
             </a>
             <div class="card-body">
                 <h5 class="card-title">${card.producto}</h5>
