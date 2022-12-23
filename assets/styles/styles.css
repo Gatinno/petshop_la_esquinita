@@ -6,10 +6,6 @@
 .perro{
     width: 100%;
 }
-
-main{
-    background-color: #D9A256;
-}
 footer{
     background-color: #2A3033;
     padding: 15px;
@@ -44,7 +40,7 @@ main{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    min-height: 82vh;
+    min-height: 88vh;
 
     background-color: #D9A256;
 }
