@@ -23,6 +23,7 @@ footer{
 }
 .anchor{
     text-decoration: none;
+    text-transform: capitalize;
     color: #E4E3E9;
 }
 .anchor:hover{
