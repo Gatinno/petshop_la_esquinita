@@ -98,23 +98,17 @@ input[type="text"] {
     justify-content: center !important;
     align-items: center !important;
 }
-
-.card:not(:hover){
+.card{
     border-radius: 1.5rem;
     margin: 1rem 0rem;
     border: 1px solid #2A3033;
     height: 24rem;
     background-color: #BF8A41;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    transition: all ease .3s;
 }
 
 .card:hover {
-    border-radius: 1.5rem;
-    border: 1px solid #2A3033;
-    height: 24rem;
-    background-color: #BF8A41;
-    align-content: space-between;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
     transform: scale(1.1);
   }
 

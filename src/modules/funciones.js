@@ -18,7 +18,7 @@ export  function renderCards(conteiner, array, value){
             <div class="card-body">
                 <h5 class="card-title">${card.producto}</h5>
                 <div class="text-button">
-                    <p class="text-button">Price: ${card.precio}</p>
+                    <p class="text-button">Precio: $${card.precio}</p>
                     <a href="#"  class="btn btn-primary">Agregar</a>
                 </div>
             </div>
