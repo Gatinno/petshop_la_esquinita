@@ -235,3 +235,6 @@ footer>div{
     border-radius: 40px;
     color: #E4E3E9;
 }
+#img-card{
+    object-fit: contain;
+}
